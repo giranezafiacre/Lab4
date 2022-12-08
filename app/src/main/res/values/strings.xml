@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="screen_name">HOME</string>
+    <string name="screen_name1">PROFILE</string>
+    <string name="screen_name2">SETTING</string>
+    <string name="nav_desc">Navigation Icon</string>
+    <string name="route">home</string>
+    <string name="route1">profile</string>
+    <string name="route2">settings</string>
+    <string name="title">Home</string>
+    <string name="title1">Profile</string>
+    <string name="title2">Settings</string>
+</resources>
