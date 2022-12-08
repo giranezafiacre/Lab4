@@ -13,13 +13,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.navigation.R
+import com.example.navigation.ui.theme.darkgrey
 
 @Composable
 fun SettingsScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Red),
+            .background(darkgrey),
         contentAlignment = Alignment.Center
     ) {
         Text(

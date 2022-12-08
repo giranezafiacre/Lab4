@@ -19,13 +19,13 @@ sealed class BottomBarScreen(
 
     object Profile : BottomBarScreen(
         route = "profile",
-        title = "Profile",
+        title = "User",
         icon = Icons.Default.Person
     )
 
     object Settings : BottomBarScreen(
         route = "settings",
-        title = "Settings",
+        title = "Configs",
         icon = Icons.Default.Settings
     )
 }

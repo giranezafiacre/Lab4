@@ -13,13 +13,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.navigation.R
+import com.example.navigation.ui.theme.`Red-cmu`
 
 @Composable
 fun HomeScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Magenta),
+            .background(`Red-cmu`),
         contentAlignment = Alignment.Center
     ) {
         Text(

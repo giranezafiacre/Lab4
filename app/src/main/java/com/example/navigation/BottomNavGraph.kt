@@ -17,11 +17,12 @@ fun BottomNavGraph(navController: NavHostController) {
         composable(route = BottomBarScreen.Home.route) {
             HomeScreen()
         }
-        composable(route = BottomBarScreen.Profile.route) {
-            ProfileScreen()
-        }
         composable(route = BottomBarScreen.Settings.route) {
             SettingsScreen()
         }
+        composable(route = BottomBarScreen.Profile.route) {
+            ProfileScreen()
+        }
+
     }
 }
